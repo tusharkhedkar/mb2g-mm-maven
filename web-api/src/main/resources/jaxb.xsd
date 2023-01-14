@@ -6,7 +6,7 @@
     <xsd:annotation>
         <xsd:appinfo>
             <jaxb:schemaBindings>
-                <jaxb:package name="guru.springframework.domain"/>
+                <jaxb:package name="org.example.domain"/>
             </jaxb:schemaBindings>
         </xsd:appinfo>
     </xsd:annotation>
@@ -15,7 +15,7 @@
         <xsd:sequence>
             <xsd:element name="firstName" type="xsd:string"/>
             <xsd:element name="lastName" type="xsd:string"/>
-            <xsd:element name="emailAddress" type="xsd:string"/>git
+            <xsd:element name="emailAddress" type="xsd:string"/>
         </xsd:sequence>
     </xsd:complexType>
 
